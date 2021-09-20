@@ -1,21 +1,19 @@
 {
-  "name": "Yam Finance",
-  "skin": "yam",
-  "domain": "",
-  "symbol": "YAM",
+  "name": "MakiSwap DAO",
+  "skin": "maki",
+  "domain": "app.makiswap.com/pools",
+  "symbol": "SOY",
   "filters": {
     "minScore": 100,
-    "defaultTab": "all"
+    "defaultTab": "all",
+    "max": 1000,
+    "min": 100
   },
   "members": [
-    "0xeF8305E140ac520225DAf050e2f71d5fBcC543e7",
-    "0x683A78bA1f6b25E29fbBC9Cd1BFA29A51520De84",
-    "0x9Ebc8AD4011C7f559743Eb25705CCF5A9B58D0bc",
-    "0xC3edCBe0F93a6258c3933e86fFaA3bcF12F8D695",
-    "0xbdac5657eDd13F47C3DD924eAa36Cf1Ec49672cc",
-    "0xEC3281124d4c2FCA8A88e3076C1E7749CfEcb7F2"
+    "0xe293DFeC6c1077fa26ff2c9A318a409484F40Be2",
+    "0x45B96eD5d5B18f4f865266D8371C662Cd241e6D5"
   ],
-  "network": "1",
+  "network": "128",
   "plugins": {
     "quorum": {
       "total": 200000,
@@ -26,8 +24,8 @@
     {
       "name": "contract-call",
       "params": {
-        "symbol": "YAM LP",
-        "address": "0xc32f9b0292965c5dd4a0ea1abfcc1f5a36d66986",
+        "symbol": "MAKI LP",
+        "address": "0x4cb4c9C8cC67B171Ce86eB947cf558AFDBcAB17E",
         "decimals": 24,
         "methodABI": {
           "name": "getCurrentVotes",
